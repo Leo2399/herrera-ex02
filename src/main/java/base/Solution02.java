@@ -8,10 +8,16 @@ package base;
 import java.util.Scanner;
 
 public class Solution02 {
+    /*
+    print "What is the input string?"
+     'name' = string input from user
+     read the length of the string
+     print "'name' has 'number' characters"
+     */
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.print("what is the input string? ");
+        System.out.print("What is the input string? ");
         String name = input.nextLine();
 
         int nameLength = name.length();
