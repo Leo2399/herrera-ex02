@@ -10,9 +10,11 @@ import java.util.Scanner;
 public class Solution02 {
     /*
     print "What is the input string?"
-     'name' = string input from user
-     read the length of the string
-     print "'name' has 'number' characters"
+     'name' = read string from user
+
+     'nameLength' = count the number of characters in the string
+
+     print "'name' has 'nameLength' characters"
      */
     private static Scanner input = new Scanner(System.in);
 
